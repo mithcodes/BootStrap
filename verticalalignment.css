@@ -1,0 +1,14 @@
+body{
+    background-color: gray;
+}
+.container{
+    border:2px solid black;
+}
+.col1, .col2, .col3{
+    border:2px solid red;
+}
+/* .row1{
+    align-items: start;
+    align-items: end;
+    align-items: center;
+} */

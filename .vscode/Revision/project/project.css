@@ -1,0 +1,103 @@
+
+a:hover{
+    text-decoration: none;
+}
+#header{
+    color:#fff;
+    background-color: #131229;
+    padding: 40px;
+}
+#logo{
+   font-size: 2rem;
+    margin: 10px;
+
+
+
+}
+
+#menu{
+    list-style:none;
+    margin:0;
+    padding:0;
+
+}
+
+#menu li{
+    display: inline-block;
+
+}
+
+#menu li a{
+    color:#fff;
+    
+    padding:15px 15px;
+    display:block;
+}
+
+#menu li a:hover{
+    background-color: #5941A9;
+}
+
+#banner{
+    background: url('https://images.pexels.com/photos/4823233/pexels-photo-4823233.jpeg?auto=compress&cs=tinysrgb&w=600');
+    color:black;
+   
+}
+
+.banner-title h3{
+    background-color: #6D72C3;
+    padding:10px;
+    margin:0;
+}
+.banner-title p.lead{
+    color:#fff;
+    background-color: #131229;
+}
+.service-box i.fa{
+    color:#c0392b;
+    font-size:70px ;
+    margin-bottom: 16px;
+}
+.service-box{
+    text-align: center;
+}
+
+.section h2.section-head{
+    color:#000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section h2.section-head:after{
+    background-color: #e74c3c;
+    content:"";
+    display: block;
+    width:100px;
+    height:3px;
+    margin:20px auto;
+}
+
+
+
+#testimonials{
+background: url('https://images.pexels.com/photos/3497624/pexels-photo-3497624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+background-size: cover;
+padding-top: 20px;
+color:rgb(89, 65, 169);
+min-height:auto;
+
+
+}
+
+
+img.mark {
+    max-width: 100%;
+    height: auto;
+    max-height: 180px; /* Adjust the max-height as needed */
+    border-radius: 40%;
+}
+
+.bg{
+    background-color: #1D1128;
+}
+

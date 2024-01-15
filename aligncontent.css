@@ -1,0 +1,24 @@
+body{
+    background-color: gray;
+}
+.container{
+    border:2px solid black;
+}
+.col1, .col2, .col3{
+    border:2px solid red;
+}
+/* .row1{
+    align-content: space-around;
+    align-content: center;
+    align-content: start;
+    align-content: end;
+    align-content:space-between;
+    align-content: space-around;
+} */
+.col1{
+    
+    align-self:center;
+    align-self: flex-end;
+    align-self: flex-start;
+
+}

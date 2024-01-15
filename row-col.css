@@ -1,0 +1,10 @@
+.container{
+    border:5px solid burlywood
+
+}
+.row{
+    border:2px solid gainsboro
+}
+.col{
+    border:3px solid red;
+}

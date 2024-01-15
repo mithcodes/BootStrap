@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="reorder.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row rows">
+           <div class="col orange">col 1</div>
+           <div class="col pink">col 2</div>
+           <div class="col yellow">col 3</div>
+           <div class="col green">col4</div> 
+        </div>
+        <!-- ab yah hm apna code ko reording karenga -->
+        <div class="row rows2">
+            <div class="col orange">col 1</div>
+            <div class="col order-last  orderpink">col 2</div>
+            <div class="col order-first yellow">col 3</div>
+            <div class="col green">col4</div> 
+         </div>
+         <!-- aha pr jab screen medim sa chota hoga tab reodering kam nai karega -->
+         <div class="row rows3">
+            <div class="col orange">col 1</div>
+            <div class="col order-md-last  orderpink">col 2</div>
+            <div class="col order-md-first yellow">col 3</div>
+            <div class="col green">col4</div> 
+         </div>
+         <!-- yaha hm sabka reordring kr sakta han -->
+         <div class="row rows2">
+            <div class="col orange">col 1</div>
+            <div class="col order-3  orderpink">col 2</div>
+            <div class="col order-1 yellow">col 3</div>
+            <div class="col green">col4</div> 
+         </div>
+         <!-- hm alag alg screen k lia alg alg reactive website genrate kar sakta ahn -->
+         <div class="row row3">
+            <div class="col-md-5 order-md-1 order-sm-3">col1</div>
+            <div class="col-md-3 order-md-3 order-sm-2">col2<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad alias aspernatur et accusamus minus accusantium sapiente iure, mollitia, recusandae doloremque officiis fugit aliquam explicabo quas eaque odio non voluptate dicta ea quia laudantium aperiam voluptatibus ipsam! Esse optio eius praesentium dolor dolorem, provident dicta mollitia. Quidem accusamus autem ipsa natus iste sunt itaque amet, recusandae temporibus qui commodi deserunt aspernatur debitis excepturi, est doloribus nesciunt illum ipsum obcaecati voluptas quae ab suscipit! Veniam voluptatem nostrum cupiditate qui rem dolore deserunt alias excepturi corporis eum quas nulla debitis voluptate, ullam eos iusto modi vitae consequuntur adipisci? Repellendus assumenda necessitatibus error dignissimos.</p></div>
+            <div class="col-md-4 order-md-2 order-sm-1">col3</div>
+         </div>
+    </div>
+</body>
+</html>

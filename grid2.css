@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(38, 70, 83);
+}
+.container{
+    background-color: rgb(42, 157,143);
+}
+#row1{
+    background-color: rgb(233, 196, 106);
+    padding: 40px;
+}
+#menu{
+    background-color: rgb(244, 162, 97);
+}
+#row3{
+    background-color: rgb(231, 111, 81);
+    padding: 40px;
+}

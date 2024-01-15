@@ -1,0 +1,13 @@
+.container {
+    border: 2px solid black;
+}
+
+.blue1 {
+    border: 2px solid red;
+    float: left;
+}
+
+.blue2 {
+    border: 2px solid red;
+    float: right;
+}

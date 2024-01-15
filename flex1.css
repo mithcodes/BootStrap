@@ -1,0 +1,16 @@
+body{
+    background-color: gray;
+}
+.container{
+    border:2px solid black;
+}
+.col1, .col2, .col3, .col4{
+    border:2px solid red;
+}
+.row1{
+    border:2px solid red;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    flex-direction: column;
+    
+}

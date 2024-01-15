@@ -1,0 +1,10 @@
+.container{
+    border:4px solid black;
+    background-color: gray;
+}
+.row1, .row2{
+    border:2px solid black;
+}
+.col1, .col2{
+    border:2px solid black
+}

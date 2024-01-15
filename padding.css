@@ -1,0 +1,15 @@
+body{
+    background-color: gray;
+}
+.col2{
+    border:2px solid red;
+    background-color: aqua;
+}
+.col1{
+    border:2px solid red;
+    background-color: yellow;
+}
+.container{
+    background-color: chocolate;
+    border:2px solid black;
+}

@@ -1,0 +1,7 @@
+.container{
+    border:2px solid black;
+}
+.class1, .class2, .class3, .class4, .class5, .class6{
+    border:2px solid red;
+    background-color: blue;
+}
